@@ -1,9 +1,11 @@
-1. Let's create an EditText and Button:
+In this exercise, we will create a button that shows the first repeated character in a word.
+
+1. Create an EditText for the text input and a Button that will respond to events.
 
 ```
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="match_p       arent"
     android:layout_height="match_parent"
     tools:context="${packageName}.${activityClass}">
 
@@ -25,8 +27,7 @@
 
 </RelativeLayout>
 ```
-
-2. Let's create a click handler to generate a Toast whenver text is provided:
+2. Create a click handler to generate a Toast whenver text is provided:
 
 ```
 public class MainActivity extends Activity {
@@ -50,10 +51,9 @@ public class MainActivity extends Activity {
     }
 }
 ```
-
 3. Copy WordTester.java into your main Activity.
 
-4. Try typing in:
+4. Try typing the following words and clicking the Submit button:
 
 "meet"
 "hello"
