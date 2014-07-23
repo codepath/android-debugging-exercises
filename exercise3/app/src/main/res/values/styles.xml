@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LargeFont">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="LargeRedFont" parent="LargeFont">
+        <item name="android:textColor">#C80000</item>
+    </style>
+
+    <style name="LargeRandomFont" parent="LargeFont">
+        <item name="android:textColor">#ABCDEF</item>
+    </style>
+
+</resources>
