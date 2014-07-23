@@ -34,7 +34,7 @@ public class BoxOfficeMoviesAdapter extends ArrayAdapter<BoxOfficeMovie> {
         TextView tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
         TextView tvCriticsScore = (TextView) convertView.findViewById(R.id.tvCriticsScore);
         TextView tvCast = (TextView) convertView.findViewById(R.id.tvCast);
-        ImageView ivPosterImage = (ImageView) convertView.findViewById(R.id.ivPosterImage);
+        ImageView ivPosterImage = (ImageView) convertView.findViewById(R.id.tvTitle);
         // Populate the data into the template view using the data object
         tvTitle.setText(movie.getTitle());
         tvCriticsScore.setText("Score: " + movie.getCriticsScore() + "%");
