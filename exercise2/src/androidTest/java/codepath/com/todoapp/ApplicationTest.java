@@ -1,4 +1,4 @@
-package codepath.com.todoapp3;
+package codepath.com.todoapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

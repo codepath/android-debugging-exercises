@@ -1,4 +1,4 @@
-package codepath.com.todoapp3;
+package codepath.com.todoapp;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
+// Figure out why the TodoActivity cannot save the items.
 public class TodoActivity extends Activity {
 
     ArrayAdapter<String> arrayAdapter;
