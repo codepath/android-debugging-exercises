@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-Copy WordTester.java into your main Activity.
+Copy WordAnalyzer.java into your main Activity.
 
 Try typing the following words and clicking the Submit button:
 
